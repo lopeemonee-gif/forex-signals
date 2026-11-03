@@ -1,0 +1,62 @@
+2026-11-03 21:20:36,157 - INFO - Forex Signal Bot started
+2026-11-03 21:20:36,158 - INFO - Fetching data for EURUSD=X
+2026-11-03 21:21:10,584 - ERROR - Failed to get ticker 'EURUSD=X' reason: Failed to perform, curl: (28) Connection timed out after 10013 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-03 21:21:23,682 - ERROR - Error processing EURUSD=X: The truth value of a Series is ambiguous. Use a.empty, a.item(), a.any() or a.all().
+2026-11-03 21:21:24,683 - INFO - Fetching data for XAUUSD=X
+2026-11-03 21:21:45,559 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: XAUUSD=X"}}}
+2026-11-03 21:21:46,009 - ERROR - $XAUUSD=X: No data found, symbol may be delisted
+2026-11-03 21:21:46,012 - ERROR - 
+1 Failed download:
+2026-11-03 21:21:46,013 - ERROR - ['XAUUSD=X']: No data found, symbol may be delisted
+2026-11-03 21:21:46,030 - WARNING - Insufficient data for XAUUSD=X
+2026-11-03 21:32:22,770 - INFO - Forex Signal Bot started
+2026-11-03 21:32:22,770 - INFO - Fetching data for EURUSD
+2026-11-03 21:32:43,295 - ERROR - Failed to get ticker 'EURUSD' reason: Failed to perform, curl: (28) Connection timed out after 10012 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-03 21:32:54,478 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: EURUSD"}}}
+2026-11-03 21:32:54,896 - ERROR - $EURUSD: No data found, symbol may be delisted
+2026-11-03 21:32:54,928 - ERROR - 
+1 Failed download:
+2026-11-03 21:32:54,929 - ERROR - ['EURUSD']: No data found, symbol may be delisted
+2026-11-03 21:32:54,955 - WARNING - Insufficient data for EURUSD
+2026-11-03 21:32:55,956 - INFO - Fetching data for GC=F
+2026-11-03 21:33:06,009 - ERROR - Failed to get ticker 'GC=F' reason: Failed to perform, curl: (28) Connection timed out after 10010 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-03 21:33:26,942 - ERROR - Error processing GC=F: The truth value of a Series is ambiguous. Use a.empty, a.item(), a.any() or a.all().
+2026-11-03 21:33:27,943 - INFO - Fetching data for XAUUSD=X
+2026-11-03 21:33:37,965 - ERROR - Failed to get ticker 'XAUUSD=X' reason: Failed to perform, curl: (28) Connection timed out after 10004 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-03 21:33:56,765 - ERROR - $XAUUSD=X: No data found, symbol may be delisted
+2026-11-03 21:33:56,778 - ERROR - 
+1 Failed download:
+2026-11-03 21:33:56,779 - ERROR - ['XAUUSD=X']: No data found, symbol may be delisted
+2026-11-03 21:33:56,808 - WARNING - Insufficient data for XAUUSD=X
+2026-11-03 21:35:34,896 - INFO - Forex Signal Bot started
+2026-11-03 21:35:34,897 - INFO - Fetching data for SPY
+2026-11-03 21:35:56,805 - ERROR - $SPY: possibly delisted; no price data found  (period=3mo)
+2026-11-03 21:35:56,840 - ERROR - 
+1 Failed download:
+2026-11-03 21:35:56,840 - ERROR - ['SPY']: possibly delisted; no price data found  (period=3mo)
+2026-11-03 21:35:56,853 - WARNING - Insufficient data for SPY
+2026-11-03 21:35:57,854 - INFO - Fetching data for AAPL
+2026-11-03 21:36:07,901 - ERROR - Failed to get ticker 'AAPL' reason: Failed to perform, curl: (28) Connection timed out after 10007 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-11-03 21:36:28,972 - ERROR - Error processing AAPL: The truth value of a Series is ambiguous. Use a.empty, a.item(), a.any() or a.all().
+2026-11-03 21:38:22,713 - INFO - Forex Signal Bot started (MOCK MODE)
+2026-11-03 21:38:22,713 - INFO - Fetching data for SPY
+2026-11-03 21:38:23,732 - INFO - Fetching data for AAPL
+2026-11-03 21:59:00,508 - INFO - Forex Signal Bot started (MOCK MODE)
+2026-11-03 21:59:00,513 - INFO - Fetching data for SPY
+2026-11-03 21:59:01,528 - INFO - Fetching data for AAPL
+2026-11-03 22:19:33,150 - INFO - Forex Signal Bot started with real data (Alpha Vantage)
+2026-11-03 22:19:33,155 - INFO - API Key: WQY34SEQT0...
+2026-11-03 22:19:33,156 - INFO - Fetching EUR/USD from Alpha Vantage...
+2026-11-03 22:19:33,729 - ERROR - No data for EUR/USD
+2026-11-03 22:19:33,735 - WARNING - Insufficient data for EUR/USD
+2026-11-03 22:19:34,737 - INFO - Fetching XAU/USD from Alpha Vantage...
+2026-11-03 22:19:35,303 - ERROR - No data for XAU/USD
+2026-11-03 22:19:35,307 - WARNING - Insufficient data for XAU/USD
+2026-11-03 22:21:34,968 - INFO - Forex Signal Bot started with real data (Alpha Vantage)
+2026-11-03 22:21:34,968 - INFO - API Key: WQY34SEQT0...
+2026-11-03 22:21:34,969 - INFO - Fetching EUR/USD from Alpha Vantage...
+2026-11-03 22:21:35,451 - ERROR - No data for EUR/USD
+2026-11-03 22:21:35,455 - WARNING - Insufficient data for EUR/USD
+2026-11-03 22:21:36,457 - INFO - Fetching GBP/USD from Alpha Vantage...
+2026-11-03 22:21:36,944 - ERROR - No data for GBP/USD
+2026-11-03 22:21:36,947 - WARNING - Insufficient data for GBP/USD

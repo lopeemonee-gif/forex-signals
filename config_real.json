@@ -1,0 +1,33 @@
+{
+  "telegram": {
+    "bot_token": "9254054753:AAF3bR0fhPZ-S37-keoHumBcw2DkvDPy1HI",
+    "chat_id": "6863572048"
+  },
+  "alpha_vantage": {
+    "api_key": "WQY34SEQT0V8XSBX"
+  },
+  "trading": {
+    "pairs": [
+      {
+        "symbol": "EUR/USD",
+        "from_currency": "EUR",
+        "to_currency": "USD"
+      },
+      {
+        "symbol": "GBP/USD",
+        "from_currency": "GBP",
+        "to_currency": "USD"
+      }
+    ],
+    "timeframe": "60min",
+    "lookback_period": 100
+  },
+  "indicators": {
+    "rsi_period": 14,
+    "ma_short": 20,
+    "ma_long": 50,
+    "rsi_oversold": 30,
+    "rsi_overbought": 70
+  },
+  "check_interval_minutes": 60
+}

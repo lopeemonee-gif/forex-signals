@@ -1,0 +1,19 @@
+telegram:
+  bot_token: "9254054753:AAF3bR0fhPZ-S37-keoHumBcw2DkvDPy1HI"
+  chat_id: " 6863572048E"  # dapatkan dari /start di bot lalu check logs
+
+trading:
+  pairs:
+    - EURUSD=X
+    - XAUUSD=X
+  timeframe: "1h"
+  lookback_period: 100
+
+indicators:
+  rsi_period: 14
+  ma_short: 20
+  ma_long: 50
+  rsi_oversold: 30
+  rsi_overbought: 70
+
+check_interval_minutes: 60  # setiap jam
